@@ -10,11 +10,11 @@
   const documentationUrl = `https://www.twicpics.com/docs/components/svelte-3?utm_source=github&utm_medium=organic&utm_campaign=components`;
   const frameworkLogo = `https://assets.twicpics.com/demo/@twicpics-components/logos/svelte.png`;
 
-  let onlineUrl;
+  $: onlineUrl = `https://stackblitz.com/github/${GITHUB_REPO_NAME}?file=${
+    encodeURIComponent( filename ) || 'README.md'
+  }`;
 
   $: {
-    onlineUrl = `https://stackblitz.com/github/${GITHUB_REPO_NAME}?file=${filename || 'README.md'}`;
-    console.log('before', filename, onlineUrl);
     if (filename) {
       onlineUrl = `${onlineUrl}&initialpath=${filename.replace(
         /(src\/routes\/)(.*)(\/\+page\.svelte)/,

@@ -34,7 +34,7 @@
 </script>
 
 <div id="twic-bulk-loading-container">
-  <TwicWrapper filename="src/lib/bulk-loading/+page.svelte">
+  <TwicWrapper filename="src/routes/bulk-loading/+page.svelte">
     <TwicAbstract title="Bulk loading">
       <p>
         With <Code>TwicImg</Code> and <Code>TwicVideo</Code> your medias will only start loading when

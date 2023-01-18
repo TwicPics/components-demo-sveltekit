@@ -23,15 +23,12 @@
 
   const handleStateChange = (e) => {
     eventDetail = e.detail;
-    console.log('WTF', e, eventDetail);
   };
 
   let state;
   let eventDetail;
 
   $: actualConfig = config[indiceConfig];
-
-  $: console.log(actualConfig.src);
 </script>
 
 <div id="twic-state-container">
