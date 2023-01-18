@@ -7,11 +7,11 @@
   const GITHUB_REPO_NAME = `TwicPics/components-demo-sveltekit`;
   const GITHUB = `https://github.com/${GITHUB_REPO_NAME}`;
 
-  const documentationUrl = `https://www.twicpics.com/docs/components/svelte-3?utm_source=github&utm_medium=organic&utm_campaign=components`;
+  const documentationUrl = `https://www.twicpics.com/docs/components/sveltekit?utm_source=github&utm_medium=organic&utm_campaign=components`;
   const frameworkLogo = `https://assets.twicpics.com/demo/@twicpics-components/logos/svelte.png`;
 
   $: onlineUrl = `https://stackblitz.com/github/${GITHUB_REPO_NAME}?file=${
-    encodeURIComponent( filename ) || 'README.md'
+    encodeURIComponent(filename) || 'README.md'
   }`;
 
   $: {

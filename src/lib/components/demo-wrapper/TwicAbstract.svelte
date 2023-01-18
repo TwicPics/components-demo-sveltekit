@@ -30,14 +30,5 @@
       margin: 10px 0;
       padding-left: 32px;
     }
-
-    & a {
-      &:link,
-      &:visited,
-      &:hover,
-      &:active {
-        color: #8e08fd;
-      }
-    }
   }
 </style>
