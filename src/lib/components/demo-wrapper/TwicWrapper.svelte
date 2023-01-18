@@ -21,7 +21,6 @@
         '$2'
       )}`;
     }
-    console.log('after', filename, onlineUrl);
   }
 
   $: gitHubUrl = filename ? `${GITHUB}/blob/main/${filename}` : GITHUB;
