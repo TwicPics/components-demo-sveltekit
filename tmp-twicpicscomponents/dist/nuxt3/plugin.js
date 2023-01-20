@@ -1,0 +1,1 @@
+import TwicPics from"@twicpics/components/vue3";import{defineNuxtPlugin,useRuntimeConfig}from"#app";export default defineNuxtPlugin(i=>{var e=useRuntimeConfig();i.vueApp.use(TwicPics,e.twicpics)});

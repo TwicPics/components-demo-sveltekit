@@ -1,0 +1,102 @@
+{
+  "author": "TwicPics <hello@twic.pics> (https://www.twicpics.com)",
+  "bugs": {
+    "url": "https://github.com/twicpics/components/issues"
+  },
+  "description": "A Web component library that brings the power of TwicPics to your favorite web framework.",
+  "homepage": "https://github.com/twicpics/components",
+  "keywords": [
+    "angular",
+    "component library",
+    "gatsby js",
+    "next js",
+    "nuxt js",
+    "react",
+    "responsive image",
+    "svelte",
+    "sveltekit",
+    "twicpics",
+    "ui library",
+    "vue js"
+  ],
+  "license": "MIT",
+  "name": "@twicpics/components",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twicpics/components.git"
+  },
+  "version": "0.14.2",
+  "exports": {
+    "./style.css": "./style.css",
+    "./react": {
+      "require": "./react/index.js",
+      "import": "./react/module.mjs"
+    },
+    "./react-native": {
+      "require": "./react-native/index.js",
+      "import": "./react-native/module.mjs"
+    },
+    "./svelte3": {
+      "require": "./svelte3/index.js",
+      "import": "./svelte3/module.mjs"
+    },
+    "./vue2": {
+      "require": "./vue2/index.js",
+      "import": "./vue2/module.mjs"
+    },
+    "./vue3": {
+      "require": "./vue3/index.js",
+      "import": "./vue3/module.mjs"
+    },
+    "./next": {
+      "require": "./next/index.js",
+      "import": "./next/module.mjs"
+    },
+    "./nuxt2": {
+      "require": "./nuxt2/index.js"
+    },
+    "./nuxt3": {
+      "require": "./nuxt3/index.js",
+      "import": "./nuxt3/module.mjs"
+    },
+    "./gatsby/package.json": "./gatsby/package.json",
+    "./webcomponents": {
+      "require": "./webcomponents/index.js",
+      "import": "./webcomponents/module.mjs"
+    },
+    "./angular11": {
+      "main": "./angular11/main.js",
+      "module": "./angular11/module.js",
+      "es2015": "./angular11/module.js",
+      "fesm2015": "./angular11/module.js",
+      "typings": "./angular11/lib.d.ts",
+      "metadata": "./angular11/lib.metadata.json"
+    },
+    "./angular12": {
+      "main": "./angular12/main.js",
+      "module": "./angular12/module.js",
+      "es2015": "./angular12/module.js",
+      "fesm2015": "./angular12/module.js",
+      "typings": "./angular12/lib.d.ts"
+    },
+    "./angular13": {
+      "module": "./angular13/module.mjs",
+      "es2020": "./angular13/es2020.mjs",
+      "fesm2020": "./angular13/es2020.mjs",
+      "fesm2015": "./angular13/module.mjs",
+      "typings": "./angular13/lib.d.ts"
+    },
+    "./angular14": {
+      "module": "./angular14/module.mjs",
+      "es2020": "./angular14/es2020.mjs",
+      "fesm2020": "./angular14/es2020.mjs",
+      "fesm2015": "./angular14/module.mjs",
+      "typings": "./angular14/index.d.ts"
+    },
+    "./sveltekit": {
+      "main": "./sveltekit/index.js",
+      "module": "./sveltekit/index.js",
+      "svelte": "./sveltekit/index.js"
+    }
+  }
+}

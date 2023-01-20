@@ -1,0 +1,18 @@
+{
+  "name": "@twicpics/components",
+  "version": "0.14.2",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "module": "module.mjs",
+  "es2020": "es2020.mjs",
+  "fesm2020": "es2020.mjs",
+  "fesm2015": "module.mjs",
+  "typings": "index.d.ts",
+  "author": "TwicPics <hello@twic.pics> (https://www.twicpics.com)"
+}
