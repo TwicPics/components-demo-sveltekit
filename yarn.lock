@@ -229,8 +229,10 @@
     svelte-hmr "^0.15.1"
     vitefu "^0.2.3"
 
-"@twicpics/components@./tmp-twicpicscomponents/dist":
-  version "0.14.2"
+"@twicpics/components@latest":
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/@twicpics/components/-/components-0.15.0.tgz#12f0cadfd03dbeb5f651767fdc4f36a8f02ed518"
+  integrity sha512-vVqLkGB3sv9TSRs3T6xjXC773zwNZC8ZXZ+NNmLf/2vstGF1zSZGRIFPGoFJQhpQa6Gv+oERBcGuwSLefF5Y6g==
 
 "@types/cookie@^0.5.1":
   version "0.5.1"

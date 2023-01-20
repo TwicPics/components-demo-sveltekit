@@ -14,7 +14,7 @@
     "@sveltejs/adapter-auto": "1.0.1",
     "@sveltejs/adapter-netlify": "^1.0.4",
     "@sveltejs/kit": "1.1.1",
-    "@twicpics/components": "./tmp-twicpicscomponents/dist",
+    "@twicpics/components": "latest",
     "eslint": "8.32.0",
     "eslint-config-prettier": "8.6.0",
     "eslint-plugin-svelte3": "4.0.0",

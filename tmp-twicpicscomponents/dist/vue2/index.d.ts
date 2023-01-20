@@ -1,1 +1,0 @@
-import{PluginFunction}from'vue';declare type Environment=`debug`|`offline`|`production`;interface Options{anticipation?:number;class?:string;debug?:boolean;domain:string;env?:Environment;handleShadowDom?:boolean;maxDPR?:number;path?:string;step?:number;TwicImg?:string;TwicVideo?:string;TwicView?:string;}declare const plugin:PluginFunction<Options>;export{plugin as default};
