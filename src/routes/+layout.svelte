@@ -1,7 +1,5 @@
 <script>
   import '../app.scss';
-  import '../app.scss';
-  import '../app.scss';
   import { installTwicPics } from '@twicpics/components/sveltekit';
   import '@twicpics/components/style.css';
 
