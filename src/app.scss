@@ -64,19 +64,21 @@ body {
   height: 2rem;
 }
 .twic-item {
+  background-color: #00ffa3;
   position: relative;
-  padding: 12px;
+  border: solid 12px #ffffff;
   border-radius: 6px;
   box-shadow: 0 2px 9px 0 rgb(39 37 63 / 15%);
+
   & .twic-button {
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
     width: 100%;
   }
-  & > span {
+
+  &>span {
     display: block;
-    margin-top: 12px;
-    padding: 6px 12px;
+    padding: 12px 12px 6px 12px;
     font-size: 0.8em;
     font-weight: 400;
     background-color: #f2f2f2;

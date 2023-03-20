@@ -72,11 +72,3 @@
   </TwicWrapper>
 </div>
 
-<style lang="scss">
-  #twic-basic-grid-container {
-    :global(.twic-item .twic-w) {
-      background-color: #00ffa3;
-      display: block;
-    }
-  }
-</style>

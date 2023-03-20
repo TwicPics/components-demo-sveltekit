@@ -10,7 +10,13 @@
 <div id="twic-style-driven-container">
   <TwicWrapper filename="src/routes/style-driven/+page.svelte">
     <TwicAbstract title="CSS style driven">
-      <p>You can set up the TwicPics components using pure CSS and the power of CSS variables.</p>
+      <p>
+        You can set up the TwicPics components using pure CSS and the power of <a
+          href="https://www.twicpics.com/docs/components/sveltekit#css-variables"
+          target="_blank"
+          rel="noreferrer">CSS variable</a
+        >.
+      </p>
     </TwicAbstract>
     <p>
       <b>1.</b> Set up aspect ratio with <Code>--twic-ratio</Code> css variable.
@@ -39,7 +45,35 @@
       </div>
     </div>
     <p>
-      <b>2.</b> Class combination: you can set up multiples props as <Code>object-fit</Code> and
+      <b>2.</b> Set up <a href="/zoom" target="_blank" rel="noreferrer">zoom</a> value with <Code
+        >--twic-zoom</Code
+      > css variable.
+    </p>
+    <div class="twic-grid">
+      <div class="twic-item zoom-sm">
+        <TwicImg src={imgUrl} zoom="css" />
+        <span>
+          class
+          <Code>zoom-sm</Code>
+        </span>
+      </div>
+      <div class="twic-item zoom-md">
+        <TwicImg src={imgUrl} zoom="css" />
+        <span>
+          class
+          <Code>zoom-md</Code>
+        </span>
+      </div>
+      <div class="twic-item zoom-lg">
+        <TwicImg src={imgUrl} zoom="css" />
+        <span>
+          class
+          <Code>zoom-lg</Code>
+        </span>
+      </div>
+    </div>
+    <p>
+      <b>3.</b> Class combination: you can set up multiples props as <Code>object-fit</Code> and
       <Code>position</Code> with
       <Code>--twic-mode</Code> and
       <Code>twic-position</Code>
@@ -71,7 +105,7 @@
       </div>
     </div>
     <p>
-      <b>3.</b> Other classical settings (here with
+      <b>4.</b> Other classical settings (here with
       <Code>width</Code>)
     </p>
     <br />
@@ -106,10 +140,6 @@
     .twic-grid {
       margin-bottom: 60px;
     }
-    :global(.twic-item .twic-w) {
-      background-color: #00ffa3;
-      display: block;
-    }
     .landscape {
       --twic-ratio: calc(4 / 3);
     }
@@ -139,6 +169,15 @@
     }
     .sm {
       width: 100px;
+    }
+    .zoom-sm {
+      --twic-zoom: 1.5;
+    }
+    .zoom-md {
+      --twic-zoom: 2;
+    }
+    .zoom-lg {
+      --twic-zoom: 3;
     }
   }
 </style>
