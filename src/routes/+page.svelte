@@ -196,7 +196,6 @@
     }
 
     :global(.twic-item) {
-      background-color: #ffffff;
       &:hover {
         & :global(img.twic-done) {
           transform: scale(1.1) !important;

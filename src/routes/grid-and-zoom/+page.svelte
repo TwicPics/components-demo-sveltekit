@@ -241,9 +241,6 @@
         }
       }
     }
-    .twic-item {
-      background-color: #ffffff;
-    }
   }
 
   #twic-grid-and-zoom ul {
