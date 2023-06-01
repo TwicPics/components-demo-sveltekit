@@ -1,7 +1,7 @@
 <script>
   import TwicAbstract from '$lib/components/demo-wrapper/TwicAbstract.svelte';
   import TwicWrapper from '$lib/components/demo-wrapper/TwicWrapper.svelte';
-  import { TwicImg } from '@twicpics/components/sveltekit';
+  import TwicImg from '@twicpics/components/sveltekit/TwicImg.svelte';
   import Modal from '$lib/components/Modal.svelte';
 
   const images = [

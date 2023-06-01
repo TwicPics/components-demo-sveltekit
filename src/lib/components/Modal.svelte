@@ -1,5 +1,5 @@
 <script>
-  import { TwicImg } from '@twicpics/components/sveltekit';
+  import TwicImg from '@twicpics/components/sveltekit/TwicImg.svelte';
   export let image;
   export let show;
   export let onClose;

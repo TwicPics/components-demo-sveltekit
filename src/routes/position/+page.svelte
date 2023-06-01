@@ -2,7 +2,7 @@
   import TwicAbstract from '$lib/components/demo-wrapper/TwicAbstract.svelte';
   import TwicWrapper from '$lib/components/demo-wrapper/TwicWrapper.svelte';
   import Code from '$lib/components/Code.svelte';
-  import { TwicImg } from '@twicpics/components/sveltekit';
+  import TwicImg from '@twicpics/components/sveltekit/TwicImg.svelte';
 
   const landscapeImgUrl = `components/position/horse.jpg`;
   const portraitImgUrl = `components/position/forest.jpg`;
