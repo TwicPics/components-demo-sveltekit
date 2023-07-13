@@ -8,7 +8,7 @@
 
   let indiceConfig = 0;
 
-  const imgUrl = `components/refit/yellow-combi.jpg`;
+  const imgUrl = `components/refit/dog-looking-water.jpg`;
 
   const config = [
     {
@@ -37,10 +37,17 @@
     <TwicAbstract title="refit property">
       <p>
         <strong>
-          The <dfn>refit</dfn> property resizes the image while maximizing the area occupied by the main
-          object (or objects) found within said image.
+          The <dfn>refit</dfn> property:
         </strong>
       </p>
+      <ul>
+        <li>
+          reframes the image to maximize the area occupied by the main object(s) while respecting <a href="/ratio" target="_blank" rel="noreferrer"> ratio </a> in <Code>cover</Code> <a href="/mode" target="_blank" rel="noreferrer"> mode </a>.
+        </li>
+        <li>
+          crops the image as close as possible to the main object(s) in <Code>contain</Code> <a href="/mode" target="_blank" rel="noreferrer"> mode </a>.
+        </li>
+      </ul>
       <p>
         To enable <dfn>refit</dfn>, simply add the <Code>refit</Code> property to the <Code
           >TwicImg</Code
@@ -78,7 +85,7 @@
     </div>
     <div class="twic-grid">
       <div class="twic-item">
-        <TwicImg src={imgUrl} mode={actualConfig.mode} />
+        <TwicImg src="{imgUrl}?${indiceConfig}" mode={actualConfig.mode} />
         <span> Original image + mode="{actualConfig.mode}" </span>
       </div>
       <div class="twic-item">
@@ -92,27 +99,27 @@
       <div class="twic-item">
         <TwicImg
           src={imgUrl}
-          anchor="top"
+          anchor="left"
           mode={actualConfig.mode}
           ratio="4/3"
           refit={actualConfig.refit}
         />
         <span>
           {actualConfig.refit === true ? `refit` : `refit="${actualConfig.refit}"`}
-          + mode="{actualConfig.mode} + anchor="top"
+          + mode="{actualConfig.mode} + anchor="left"
         </span>
       </div>
       <div class="twic-item">
         <TwicImg
           src={imgUrl}
-          anchor="bottom"
+          anchor="right"
           mode={actualConfig.mode}
           ratio="4/3"
           refit={actualConfig.refit}
         />
         <span>
           {actualConfig.refit === true ? `refit` : `refit="${actualConfig.refit}"`}
-          + mode="{actualConfig.mode} + anchor="bottom"
+          + mode="{actualConfig.mode} + anchor="right"
         </span>
       </div>
     </div>

@@ -11,19 +11,19 @@
     "format": "prettier --plugin-search-dir . --write ."
   },
   "devDependencies": {
-    "@sveltejs/adapter-auto": "2.0.1",
-    "@sveltejs/adapter-netlify": "^2.0.5",
-    "@sveltejs/kit": "1.15.9",
-    "@twicpics/components": "../../components/dist",
-    "eslint": "8.39.0",
+    "@sveltejs/adapter-auto": "2.1.0",
+    "@sveltejs/adapter-netlify": "2.0.8",
+    "@sveltejs/kit": "1.22.3",
+    "@twicpics/components": "0.20.0",
+    "eslint": "8.44.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-svelte3": "4.0.0",
-    "prettier": "2.8.8",
-    "prettier-plugin-svelte": "2.10.0",
-    "sass": "^1.58.3",
-    "svelte": "3.58.0",
+    "prettier": "3.0.0",
+    "prettier-plugin-svelte": "2.10.1",
+    "sass": "1.63.6",
+    "svelte": "4.0.5",
     "svelte-preprocess": "^5.0.1",
-    "vite": "4.3.4"
+    "vite": "4.4.3"
   },
   "type": "module"
 }
