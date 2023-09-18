@@ -32,7 +32,7 @@
       <h1 class="heading-primary">
         <img
           class="twicpics-logo"
-          src="https://assets.twicpics.com/demo/@twicpics-components/logos/twicpics.svg"
+          src="https://assets.twicpics.com/demo/@twicpics-components/logos/twicpics-by-frontify.svg"
           alt="TwicPics logo"
         />
         <span>x</span>
@@ -117,12 +117,18 @@
       font-weight: 400;
     }
     & .twicpics-logo {
-      aspect-ratio: 140/39;
-      width: 140px;
+      aspect-ratio: 300/58;
+      width: 165px;
+      @media (min-width: 640px) {
+        width: 250px;
+      }
     }
     & .framework-logo {
       aspect-ratio: 7/3;
-      width: 100px;
+      width: 66px;
+      @media (min-width: 640px) {
+        width: 100px;
+      }
     }
     & .tags-container {
       bottom: 0;
@@ -209,6 +215,9 @@
           }
         }
       }
+    }
+    @media (min-width: 640px) {
+      padding: 25px;
     }
   }
 </style>
