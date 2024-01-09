@@ -28,6 +28,11 @@
           title: `Color blindness`
         },
         {
+          route: `/critical-image`,
+          imgSrc: `puppy-dressed-as-a-reindeer.jpeg`,
+          title: `Critical Image`,
+        },
+        {
           route: `/flip-cards`,
           imgSrc: `components/flip/orange-1.jpg`,
           title: `Flip cards`
