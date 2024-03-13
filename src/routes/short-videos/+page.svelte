@@ -22,7 +22,7 @@
       </p>
       <p>
         The TwicPics API features three transformations that can be used to <a
-          href="https://www.twicpics.com/docs/topics/video-optimization#video-slicing?utm_source=github&utm_medium=organic&utm_campaign=components##sveltekit"
+          href="https://www.twicpics.com/docs/guides/video-optimization#video-slicing?utm_source=github&utm_medium=organic&utm_campaign=components##sveltekit"
           target="_blank"
           rel="noreferrer">extract a portion of the original video</a
         >.
