@@ -13,17 +13,17 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "3.1.1",
     "@sveltejs/adapter-netlify": "4.1.0",
-    "@sveltejs/kit": "2.4.1",
-    "@sveltejs/vite-plugin-svelte": "^3.0.1",
+    "@sveltejs/kit": "2.5.4",
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
     "@twicpics/components": "0.28.1",
-    "eslint": "8.56.0",
+    "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
-    "prettier": "3.2.4",
-    "prettier-plugin-svelte": "3.1.2",
-    "sass": "1.70.0",
-    "svelte": "4.2.9",
+    "prettier": "3.2.5",
+    "prettier-plugin-svelte": "3.2.2",
+    "sass": "1.72.0",
+    "svelte": "4.2.12",
     "svelte-preprocess": "^5.0.1",
-    "vite": "5.0.12"
+    "vite": "5.2.6"
   },
   "type": "module"
 }
