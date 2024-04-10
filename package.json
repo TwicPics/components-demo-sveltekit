@@ -15,7 +15,7 @@
     "@sveltejs/adapter-netlify": "4.1.0",
     "@sveltejs/kit": "2.5.4",
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
-    "@twicpics/components": "0.28.1",
+    "@twicpics/components": "0.29.0",
     "eslint": "8.57.0",
     "eslint-config-prettier": "9.1.0",
     "prettier": "3.2.5",
